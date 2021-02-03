@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="title">
+        <item> Đàn kiến đền ơn</item>
+        <item> Thầy tu rởm</item>
+        <item> Tình bạn của rái cá </item>
+        <item> Vẹt và châu chấu </item>
+        <item> Chim sơn ca</item>
+        <item> Heo rừng và thỏ </item>
+        <item> Ông lão và con lừa </item>
+        <item> Sếu, rái cá và cua </item>
+        <item> Sói và dê</item>
+        <item> Lừa và La</item>
+
+        <item> Sự tích dưa hấu</item>
+        <item> Sự tích chim gò sóng</item>
+        <item> Sự tích con ve sầu</item>
+        <item> Sự tích thánh làng Chèm</item>
+        <item> Sự tích con chuồn chuồn</item>
+        <item> Sự tích đền Vịnh Hạ Long</item>
+        <item> Sự tích dưa bở</item>
+        <item> Sự tích con mối</item>
+        <item> Sự tích bông hoa Cúc</item>
+        <item> Sự tích hoa thủy tinh</item>
+        <item> Sự tích cầu vòng</item>
+
+        <item> Gã say bột nghèo khó và con mèo đốm</item>
+        <item> Mười hai công chúa và những đôi giày nhảy rách</item>
+        <item> Ba anh em</item>
+        <item> Cáo, sư tử và ngựa </item>
+        <item> Ba anh chàng số đỏ</item>
+        <item>Ba chàng hoàng tử </item>
+        <item> Bác thợ xay bột và co quỷ </item>
+        <item> Chuột nhắt, chim sẻ, và dồi nướng </item>
+        <item> Sự tích hạt đậu</item>
+
+        <item>Nàng công chúa bán than </item>
+        <item> Sự tích chuột chù </item>
+        <item> Cái giá của sự thông thái</item>
+        <item> Chiếc hộp sắt biết nói </item>
+        <item>Con chim khách màu nhiệm </item>
+        <item> Ba bó rơm nếp </item>
+        <item>Truyền thuyết hoa hồng vàng </item>
+        <item> Cái tai có phép lạ </item>
+        <item> Sự tích Hằng Nga</item>
+
+
+        <item> Bộ quần áo mói của Hoàng đế</item>
+        <item> Đôi giày đỏ </item>
+        <item> Cô bé bán diêm </item>
+        <item> Chiếc bật lửa thần</item>
+        <item> Bác làm vườn và chủ nhà </item>
+        <item> Nàng tiên cá </item>
+        <item> Gia đình nhà cò</item>
+        <item> Chiếc hòm bay</item>
+        <item> Chú lính chì dũng cảm</item>
+
+
+        <item> Vua Midas - Hoàng đế tai lừa</item>
+        <item> Thần Aplollo và Artemis - Cặp song sinh nổi tiếng thần thoại</item>
+        <item> Truyền thuyết nữ thần Athena</item>
+        <item> Chuyện tình chàng Orpheus và nàng Eurydice - truyền thuyết cây đàn lia</item>
+        <item>Thần thoại Narcissus và Echo - Truyền thuyết hoa thủy tiên </item>
+        <item> Thần Hades - Vị thần cai quản địa ngục</item>
+        <item> Nữ thần Hera - vị thần bảo trợ hôn nhân và gia đinh</item>
+        <item> Poseidon - Vị thần của biển cả</item>
+        <item> Thần Zeus( Dớt, Jupiter) vị thần tối cao trên đỉnh Olympus</item>
+        <item> Nữ thần tình yêu Aphrodite hay thần vệ nữ</item>
+    </string-array>
+    <string-array name="content">
+        <item>Một đàn kiến sa vào vũng nước vùng vẫy mãi mà không thoát ra được. Một chú chim nhỏ vừa ra khỏi tổ trên cành cây gần bên thấy động lòng thương liền nói các bạn chờ tớ một chút tớ sẽ đến ngay, chú bay vụt ra nhặt mấy cọng rác thả xuống làm cầu cho đàn kiến thoát.
+Ngày tháng trôi qua, chú chim ấy cũng không còn nhớ đến đàn kiến nọ. Lại nói loài chim nhỏ này rất thích làm tổ trên cành sơn trà bởi vì cành cây tua tủa những gai nhọn hoắt. Sơn trà dùng gai làm vũ khí chống kẻ thù và khi ấy sơn trà che chở luôn cho cả tổ chim nữa.
+Một hôm con mèo rừng xám bất chấp gai góc cứ tìm cách lần mò tới gần tổ chim nọ. Song cả một đàn kiến dày đặc đã nhanh chóng tản đội hình ra khắp cành sơn trà có tổ chim. Mèo rừng hốt hoảng bỏ chạy ngay bởi nó nhớ có lần kiến lọt vào tai đốt đau nhói. </item>
+        <item>
+
+
+        </item>
+        <item>
+
+        </item>
+        <item>
+
+        </item>
+        <item>
+
+        </item>
+        <item>
+
+        </item>
+        <item>
+
+        </item>
+        <item>
+
+        </item>
+        <item>
+
+        </item>
+        <item>
+
+        </item>
+
+    </string-array>
+</resources>

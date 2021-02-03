@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tv_dang_nhap_he_thong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/demo_retrofit2_dang_nhap_he_thong"
+        android:textSize="@dimen/sp_30"
+        android:textColor="@color/red"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/edt_user"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_dang_nhap_he_thong"
+        app:layout_constraintStart_toStartOf="parent"
+        android:hint="@string/demo_retrofit2_nhap_tai_khoan"
+        android:layout_marginTop="@dimen/dp_30"
+        android:textSize="@dimen/sp_20"
+        />
+
+    <EditText
+        android:id="@+id/edt_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edt_user"
+        app:layout_constraintStart_toStartOf="parent"
+        android:hint="@string/demo_retrofit2_nhap_mat_khau"
+        android:layout_marginTop="@dimen/dp_20"
+        android:textSize="@dimen/sp_20"/>
+    <Button
+        android:id="@+id/btn_dang_ki"
+        android:layout_width="@dimen/dp_140"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edt_pass"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_40"
+        android:text="@string/dangki"
+        />
+    <Button
+        android:id="@+id/btn_dang_nhap"
+        android:layout_width="@dimen/dp_140"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_20"
+        app:layout_constraintLeft_toRightOf="@id/btn_dang_ki"
+        app:layout_constraintTop_toBottomOf="@id/edt_pass"
+        android:layout_marginTop="@dimen/dp_40"
+        android:text="@string/dangnhap"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

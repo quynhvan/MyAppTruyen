@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/vuong_red"
+    android:paddingHorizontal="20dp"
+    android:paddingTop="10dp"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_120"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RelativeLayout
+                android:id="@+id/gioi_thieu"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_110"
+                android:layout_marginLeft="@dimen/dp_30_"
+                android:layout_toRightOf="@id/iv_anh"
+                android:background="@drawable/app_truyen_border_item"
+                android:paddingLeft="@dimen/dp_40"
+                android:paddingTop="@dimen/dp_20">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dp_30"
+                    android:text="Sự tích dưa hấu dó là một ngày đẹp trời"
+                    android:textColor="#E97A45"
+                    android:textSize="@dimen/dp_15"
+                    android:textStyle="bold" />
+                <!-- maxLines : số dòng tối đa của contents là 3-->
+                <!-- ellipsize: end: dấu 3 chấm khi không hiển thị hết nội dùng truyện -->
+                <!-- control + / : để ghi comment trong xml-->
+
+                <TextView
+                    android:id="@+id/tv_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_title"
+                    android:layout_marginTop="@dimen/dp_0"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:text="Content" />
+            </RelativeLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/iv_anh"
+                android:layout_width="@dimen/dp_90"
+                android:layout_height="@dimen/dp_90"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/nguoi"></de.hdodenhof.circleimageview.CircleImageView>
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
